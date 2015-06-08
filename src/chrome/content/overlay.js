@@ -200,9 +200,24 @@ var TbChatNotifier = {
 					}
 				}
 
-				Cc['@mozilla.org/alerts-service;1']
-					.getService(Ci.nsIAlertsService)
-					.showAlertNotification('chrome://TbChatNotification/skin/icon32.png', title, text, true, conversation, listener);
+				let alertsService = Cc["@mozilla.org/alerts-service;1"].getService(Ci.nsIAlertsService);
+				let title = from;
+				let message = text;
+
+				alertsService.showAlertNotification(
+					"chrome://messenger/skin/preferences/chat.png",
+					title, 
+					message
+				);
+
+				/*alertsService.showAlertNotification(
+					'chrome://messenger/skin/preferences/chat.png', 
+					title, 
+					message, 
+					true, 
+					conversation, 
+					listener
+				);*/
 
 			} catch(e) {
 				// prevents runtime error on platforms that don't implement nsIAlertsService

@@ -1,0 +1,18 @@
+<!ENTITY prefwindow.title "Thunderbird Chat Notification - Preferencias">
+<!ENTITY paneMain.title "Principal">
+<!ENTITY shownotification.label "Mostrar notificación">
+<!ENTITY shownotification.accesskey "N">
+<!ENTITY showbody.label "Mostrar conversación">
+<!ENTITY showbody.accesskey "S">
+<!ENTITY playsound.label "Reproducir sonido">
+<!ENTITY playsound.accesskey "P">
+<!ENTITY soundfile.label "Sonido personalizado">
+<!ENTITY playsoundfocused.label "Reproducir sonido para la conversación activa">
+<!ENTITY playsoundfocused.accesskey "F">
+<!ENTITY trayicon.label "Mostrar icono en la bandeja del sistema">
+<!ENTITY trayicon.accesskey "T">
+<!ENTITY flashicon.label "Parpadeo icono Thunderbird">
+<!ENTITY flashicon.accesskey "F">
+<!ENTITY allincoming.label "Mostrar las notificaciones de todos los mensajes entrantes">
+<!ENTITY allincoming.accesskey "A">
+<!ENTITY allincoming.info "(no sólo para mí, Twitter, chats multiusuario de Jabber ...)">

@@ -1,8 +1,7 @@
-Thunderbird Chat Notification © Jakub Trmota, 2014 (http://forrest79.net)
+Thunderbird Chat Notification © Edgar Miró, 2015 (http://www.neo10developers.es)
 
 
 Chat notification for Mozilla Thunderbird. Notification with alert (click on alert open conversation), sound, flash Thunderbird icon and tray icon (only for Windows).
-@thanksto Wladimir Palant for inspiration with his chatnotification plugin
 
 
 HOW TO USE:
@@ -21,6 +20,9 @@ HOW TO BUILD:
 =============
 Run build/build-xpi.bat on Windows or build/build-xpi.sh on Linux. You need only ZIP utilitily in your global path.
 
+TODO:
+=====
+Disabled click to open conversation (Ubuntu bug).
 
 HISTORY
 =======
@@ -35,5 +37,5 @@ LICENSE
 =======
 Thunderbird Chat Notification is distributed under BSD license. See license.txt.
 
-
+Fork from:
 https://github.com/forrest79/tbchatnotification
